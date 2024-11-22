@@ -1,0 +1,59 @@
+  .menu{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 20px;
+  }
+  .navbar{
+    background: radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    height: 50px;
+  }
+  .btnTalk{
+    width: 140px;
+    height: 40px;
+    background: #7772F1;
+    color: white;
+    border-color:#7772F1 ;
+    border-radius:4px ;
+  }
+  .boxFooter1{
+    width: 300px;
+    line-height: 20px;
+
+  }
+  .boxFooter1 p {
+    color: gray;
+    font-size: 13px;
+  }
+  .footer{
+    background: #1E212C;
+    padding: 50px;
+  }
+  .company{
+    text-align: start;
+    width: 300px;
+  }
+  .company h1{
+    color: white;
+  }
+  .company p{
+    color: gray;
+  }
+  .company input{
+    width: 286px;
+height: 36px;
+top: 128px;
+left: 1289px;
+padding: 9px 12px 9px 12px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: #FFFFFF1F;
+border: 1px solid #FFFFFF33
+  }
