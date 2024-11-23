@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Service(){
   return <>
     <div className="" style={{textAlign:"center",background: "radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%)"}}>
@@ -29,7 +31,7 @@ export default function Service(){
       <div className="w-2/5">
         <h1 className="text-3xl font-semibold">Search Engine Optimization</h1>
         <p className="pt-5 pb-5">Eleifend orci massa et facilisis orci feugiat ac. Congue in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla duis. Arcu dictum metus sed purus senectus faucibus eget elementum pretium.         </p>
-        <div><button className="" style={{color:"blue",border:"1px solid blue",padding:"10px",margin:"6px"}}>Learn more</button><button style={{background: "rgba(119, 114, 241, 1)",padding:"10px",color:"white",borderRadius:"4px"}}>Try SEO toolkit</button></div>
+        <div><Link to={'/services'}><button className="" style={{color:"blue",border:"1px solid blue",padding:"10px",margin:"6px"}}>Learn more</button></Link><button style={{background: "rgba(119, 114, 241, 1)",padding:"10px",color:"white",borderRadius:"4px"}}>Try SEO toolkit</button></div>
       </div>
     </div>
     <div className="flex items-center justify-center">
