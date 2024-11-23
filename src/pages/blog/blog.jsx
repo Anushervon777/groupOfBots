@@ -52,7 +52,7 @@ export default function Blog() {
       </div>
 
       {/* section 2 */}
-      <div className="flex justify-center w-full mt-20 mb-20">
+      <div className="flex justify-center mt-20 mb-20flex-wrap-reverse">
         <div className="flex flex-wrap justify-start w-[70%] gap-6">
           {objProduct.map((elem) => {
             return (
@@ -75,7 +75,7 @@ export default function Blog() {
           })}
         </div>
 
-        <div className="bg-gray-100 rounded-lg shadow-lg w-[22%] h-[1050px]">
+        <div className="bg-gray-100 rounded-lg shadow-lg w-[22%] h-[1050px] p-10">
   <h1 className="text-2xl font-semibold text-gray-800 mb-6">Blog Categories</h1>
   <ul className="space-y-4">
     <li className="cursor-pointer hover:text-purple-600">All</li>
@@ -93,7 +93,7 @@ export default function Blog() {
       return (
         <div
           key={elem.id}
-          className="w-[48%] sm:w-[100%] md:w-[48%] lg:w-[100%] p-4 bg-white rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-col justify-between h-[200px] overflow-hidden"
+          className="w-[48%] sm:w-[100%] md:w-[48%] lg:w-[100%] p-4 bg-white rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-wrap justify-between h-[200px] overflow-hidden"
         >
           <img
             className="w-full h-[120px] object-cover rounded-lg mb-4"
