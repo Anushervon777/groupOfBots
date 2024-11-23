@@ -15,7 +15,8 @@ export default function Blog() {
     { avatar: pic4, title: '10 Seriously Underused Paid Search Strategies.', desc: 'Euismod congue faucibus diam etiam diam netus vitae ornare vitae. Cursus sollicitudin posuere venenatis...' },
     { avatar: pic5, title: 'How to Create Content That Gets Linked and Shared.', desc: 'Eu donec pellentesque et aliquet. Fringilla morbi etiam turpis nisl nunc, quis sagittis ut. Pulvinar amet vitae..' },
     { avatar: pic6, title: '12 Simple Tips to Creating an Effective Ad.', desc: 'Imperdiet risus consectetur dignissim lorem sollicitudin eget bibendum pellentesque nec. Adipiscing viverra in non euismod. Amet nulla aliquam nulla magna...' },
-  ]
+  ];
+
   return (
     <>
       <header className="md:w-full h-[500px] bg-slate-950 text-white text-center">
@@ -28,37 +29,37 @@ export default function Blog() {
             We’re looking for extraordinary talents! If you're passionate about SEO and digital marketing, <br /> we want to hear from you.
           </p>
         </div>
-        <div>
-          <input placeholder="Search the blog" className="w-[300px] h-[40px] bg-slate-500" type="text" />
-          <button className="bg-purple-600 text-white py-1.5 px-6 text-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition duration-300 mt-10">
+        <div className="pt-6">
+          <input placeholder="Search the blog" className="w-full sm:w-[300px] h-[40px] bg-slate-500 rounded-lg p-2" type="text" />
+          <button className="bg-purple-600 text-white py-2 px-6 text-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition duration-300 mt-4 sm:mt-10">
             Search
           </button>
         </div>
       </header>
 
-      {/* Section 1  */}
-      <div className="flex justify-center gap-8 pt-12">
-        <div className="w-[30%] text-justify">
+      {/* Section 1 */}
+      <div className="flex justify-center gap-6 sm:gap-8 pt-12">
+        <div className="w-full sm:w-[45%] md:w-[30%] text-justify">
           <img src={image} alt="How to Maximize Your ROI" className="w-full h-auto object-cover rounded-lg" />
-          <p className="mt-4">How to Maximize Your ROI Through Scientific SEM?</p><br />
-          <p className="mt-2">Read more <span className="text-purple-800">--></span></p>
+          <p className="mt-4 text-lg">How to Maximize Your ROI Through Scientific SEM?</p><br />
+          <p className="mt-2 text-purple-800 cursor-pointer hover:underline">Read more →</p>
         </div>
 
-        <div className="w-[30%] text-justify">
+        <div className="w-full sm:w-[45%] md:w-[30%] text-justify">
           <img className="w-full h-auto object-cover rounded-lg" src={image1} alt="The Basics of SEO" />
-          <p className="mt-4">The Basics of Blogging Search Engine Optimization.</p><br />
-          <p className="mt-2">Read more <span className="text-purple-800">--></span></p>
+          <p className="mt-4 text-lg">The Basics of Blogging Search Engine Optimization.</p><br />
+          <p className="mt-2 text-purple-800 cursor-pointer hover:underline">Read more →</p>
         </div>
       </div>
 
-      {/* section 2 */}
+      {/* Section 2 */}
       <div className="flex justify-center w-full mt-20 mb-20">
-        <div className="flex flex-wrap justify-start w-[70%] gap-6">
-          {objProduct.map((elem) => {
+        <div className="flex flex-wrap justify-start w-full sm:w-[70%] gap-6 px-4 sm:px-0">
+          {objProduct.map((elem, index) => {
             return (
               <div
-                key={elem.id}
-                className="w-full sm:w-[48%] md:w-[30%] lg:w-[35%] p-6 bg-white rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl"
+                key={index}
+                className="w-full sm:w-[48%] md:w-[30%] lg:w-[30%] xl:w-[22%] p-6 bg-white rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl"
               >
                 <img
                   className="w-full h-auto rounded-lg mb-4"
@@ -75,46 +76,46 @@ export default function Blog() {
           })}
         </div>
 
-        <div className="bg-gray-100 rounded-lg shadow-lg w-[22%] h-[1050px]">
-  <h1 className="text-2xl font-semibold text-gray-800 mb-6">Blog Categories</h1>
-  <ul className="space-y-4">
-    <li className="cursor-pointer hover:text-purple-600">All</li>
-    <li className="cursor-pointer hover:text-purple-600">Media & Press</li>
-    <li className="cursor-pointer hover:text-purple-600">Ad Tips</li>
-    <li className="cursor-pointer hover:text-purple-600">Marketing</li>
-    <li className="cursor-pointer hover:text-purple-600">SEO</li>
-    <li className="cursor-pointer hover:text-purple-600">Paid Search</li>
-  </ul>
+        <div className="bg-gray-100 rounded-lg shadow-lg w-full sm:w-[30%] mt-10 sm:mt-0 px-6 py-8">
+          <h1 className="text-2xl font-semibold text-gray-800 mb-6">Blog Categories</h1>
+          <ul className="space-y-4">
+            <li className="cursor-pointer hover:text-purple-600">All</li>
+            <li className="cursor-pointer hover:text-purple-600">Media & Press</li>
+            <li className="cursor-pointer hover:text-purple-600">Ad Tips</li>
+            <li className="cursor-pointer hover:text-purple-600">Marketing</li>
+            <li className="cursor-pointer hover:text-purple-600">SEO</li>
+            <li className="cursor-pointer hover:text-purple-600">Paid Search</li>
+          </ul>
 
-  <h1 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Now Trending</h1>
+          <h1 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Now Trending</h1>
 
-  <div className="flex flex-wrap gap-4">
-    {objProduct.slice(0, 3).map((elem) => {
-      return (
-        <div
-          key={elem.id}
-          className="w-[48%] sm:w-[100%] md:w-[48%] lg:w-[100%] p-4 bg-white rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-col justify-between h-[200px] overflow-hidden"
-        >
-          <img
-            className="w-full h-[120px] object-cover rounded-lg mb-4"
-            src={elem.avatar}
-            alt={elem.title || "Product image"}
-          />
-          <p className="text-xl font-semibold text-gray-800 truncate">{elem.title}</p>
-          <a
-            href={elem.link || '#'}
-            className="text-purple-600 mt-4 cursor-pointer hover:underline"
-          >
-            Read more →
-          </a>
+          <div className="flex flex-wrap gap-4">
+            {objProduct.slice(0, 3).map((elem) => {
+              return (
+                <div
+                  key={elem.id}
+                  className="w-[48%] sm:w-[100%] md:w-[48%] lg:w-[100%] p-4 bg-white rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-col justify-between h-[200px] overflow-hidden"
+                >
+                  <img
+                    className="w-full h-[120px] object-cover rounded-lg mb-4"
+                    src={elem.avatar}
+                    alt={elem.title || "Product image"}
+                  />
+                  <p className="text-xl font-semibold text-gray-800 truncate">{elem.title}</p>
+                  <a
+                    href={elem.link || '#'}
+                    className="text-purple-600 mt-4 cursor-pointer hover:underline"
+                  >
+                    Read more →
+                  </a>
+                </div>
+              );
+            })}
+          </div>
         </div>
-      );
-    })}
-  </div>
-</div>
-
       </div>
 
+      {/* Comment Section */}
       <div className="mt-20 max-w-6xl mx-auto px-6">
         <h2 className="text-3xl text-center mb-8">Leave a Comment</h2>
         <form className="space-y-4">
@@ -148,3 +149,4 @@ export default function Blog() {
     </>
   );
 }
+
