@@ -28,17 +28,17 @@ body {
   color: gray;
 }
 
-.flex {
+/* .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
-}
+} */
 
-.flex img {
+/* .flex img {
   width: 40px;
-}
+} */
 
 /* Статистика */
 .stats {

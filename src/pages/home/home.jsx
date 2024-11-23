@@ -55,7 +55,27 @@ export default function Home() {
       </div>
       <img src="/src/pages/home/homeImg/image (20).png" alt="" />
     </div>
-    <img className="w-1/2 justify-center  m-auto mt-28 mb-28" src="/src/pages/home/homeImg/Figures (2).png" alt="" />
+    <div className="w-1/2 justify-center  m-auto mt-28 mb-28">
+      <div className="flex gap-5">
+        <div className="text-center">
+          <img src="/src/pages/home/homeImg/circle-progress.png" alt="" />
+          <p>Years of experience</p>
+        </div>
+        <div className="text-center">
+          <img src="/src/pages/home/homeImg/circle-progress (1).png" alt="" />
+          <p>Awards</p>
+        </div>
+        <div className="text-center">
+          <img src="/src/pages/home/homeImg/circle-progress (2).png" alt="" />
+          <p>Projects</p>
+        </div>
+        <div className="text-center">
+        <img src="/src/pages/home/homeImg/circle-progress (3).png" alt="" />
+            <p>Happy clients</p>
+        </div>
+      </div>
+
+    </div>
     <div>
       <h1 className="text-center font-sans text-4xl">Our services</h1>
       <div className="flex justify-center gap-10">
@@ -113,36 +133,36 @@ export default function Home() {
     <div className="bg-gray-200">
       <div className="flex justify-between p-10"><h1 className="font-bold text-4xl">Read our clients' case studies</h1><img src="/src/pages/home/homeImg/hover.png" alt="" /></div>
       <div className="leading-6 flex justify-between p-8">
-        <div className="text-start w-96 p-12 " style={{border: "1px solid #E5E8ED"}}>
+        <div className="text-start w-96 p-12 " style={{ border: "1px solid #E5E8ED" }}>
           <img src="/src/pages/home/homeImg/client-logo (1).png" alt="" />
           <div>
-              <p>Charity organisation</p>
-          <p>Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%.</p>
+            <p>Charity organisation</p>
+            <p>Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%.</p>
           </div>
-        
-        <img className="pt-10" src="/src/pages/home/homeImg/features (3).png" alt="" />
+
+          <img className="pt-10" src="/src/pages/home/homeImg/features (3).png" alt="" />
         </div>
-        <div className="text-start w-96 p-12 " style={{border: "1px solid #E5E8ED"}}>
+        <div className="text-start w-96 p-12 " style={{ border: "1px solid #E5E8ED" }}>
           <img src="/src/pages/home/homeImg/client-logo (1).png" alt="" />
           <div>
-              <p>Charity organisation</p>
-          <p>Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%.</p>
+            <p>Charity organisation</p>
+            <p>Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%.</p>
           </div>
-        
-        <img className="pt-10" src="/src/pages/home/homeImg/features (3).png" alt="" />
+
+          <img className="pt-10" src="/src/pages/home/homeImg/features (3).png" alt="" />
         </div>
-        <div className="text-start w-96 p-12 " style={{border: "1px solid #E5E8ED"}}>
+        <div className="text-start w-96 p-12 " style={{ border: "1px solid #E5E8ED" }}>
           <img src="/src/pages/home/homeImg/client-logo (1).png" alt="" />
           <div>
-              <p>Charity organisation</p>
-          <p>Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%.</p>
+            <p>Charity organisation</p>
+            <p>Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%.</p>
           </div>
-        
-        <img className="pt-10" src="/src/pages/home/homeImg/features (3).png" alt="" />
+
+          <img className="pt-10" src="/src/pages/home/homeImg/features (3).png" alt="" />
         </div>
       </div>
       <div className="flex items-center gap-16 justify-center">
-        <h1 className="font-serif font-semibold text-2xl">Explore more case studies</h1> 
+        <h1 className="font-serif font-semibold text-2xl">Explore more case studies</h1>
         <button className="w-2/12 p-4 text-white rounded-r bg-purple-400">View all case studies</button>
       </div>
     </div>
@@ -150,50 +170,50 @@ export default function Home() {
       <h1 className="text-center">Our benefits</h1>
       <div className="flex items-center justify-center gap-7">
         <div>
-            <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{border:"1px solid gray"}}>
-              <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
-                <h1>Social Advertising Experts</h1>
-                <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
-            </div>
-            <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{border:"1px solid gray"}}>
-              <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
-                <h1>Social Advertising Experts</h1>
-                <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
-            </div>
-            <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{border:"1px solid gray"}}>
-              <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
-                <h1>Social Advertising Experts</h1>
-                <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
-            </div>
+          <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{ border: "1px solid gray" }}>
+            <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
+            <h1>Social Advertising Experts</h1>
+            <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+          </div>
+          <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{ border: "1px solid gray" }}>
+            <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
+            <h1>Social Advertising Experts</h1>
+            <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+          </div>
+          <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{ border: "1px solid gray" }}>
+            <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
+            <h1>Social Advertising Experts</h1>
+            <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+          </div>
         </div>
         <img src="/src/pages/home/homeImg/illustration (18).png" alt="" />
         <div className="">
-            <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{border:"1px solid gray"}}>
-              <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
-                <h1>Social Advertising Experts</h1>
-                <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
-            </div>
-            <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{border:"1px solid gray"}}>
-              <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
-                <h1>Social Advertising Experts</h1>
-                <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
-            </div>
-            <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{border:"1px solid gray"}}>
-              <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
-                <h1>Social Advertising Experts</h1>
-                <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
-            </div>
+          <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{ border: "1px solid gray" }}>
+            <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
+            <h1>Social Advertising Experts</h1>
+            <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+          </div>
+          <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{ border: "1px solid gray" }}>
+            <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
+            <h1>Social Advertising Experts</h1>
+            <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+          </div>
+          <div className=" m-5 text-center w-60 h-40 p-4  leading-10" style={{ border: "1px solid gray" }}>
+            <img className="m-auto" src="/src/pages/home/homeImg/Group.png" alt="" />
+            <h1>Social Advertising Experts</h1>
+            <p className="text-xs">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+          </div>
         </div>
       </div>
     </div>
     <div>
       <h1 className="font-semibold text-4xl text-center">Flexible pricing plans</h1>
       <div className="text-center m-10">
-      <button className="w-40 p-3 text-white rounded-r bg-purple-400">Monthly </button>
-        <button style={{border:"1px solid purple", color:"purple",padding:"10px"}}>Yearly -12% Off</button>
+        <button className="w-40 p-3 text-white rounded-r bg-purple-400">Monthly </button>
+        <button style={{ border: "1px solid purple", color: "purple", padding: "10px" }}>Yearly -12% Off</button>
       </div>
       <div className="flex justify-center gap-20" >
-        <div className="p-10" style={{border:"1px solid gray",width:"300px",textAlign:"center"}}>
+        <div className="p-10" style={{ border: "1px solid gray", width: "300px", textAlign: "center" }}>
           <h1 className="text-3xl font-semibold p-3">Basic</h1>
           <p className="text-4xl font-semibold p-3 text-purple-500">24$</p>
           <p className="p-1">✅Advanced Analytics</p>
@@ -203,9 +223,9 @@ export default function Home() {
           <p className="p-1">✅Advanced Analytics</p>
           <p className="p-1">✅Advanced Analytics</p>
           <p p-3>✅Advanced Analytics</p>
-          <button style={{border:"1px solid purple",color:"purple",padding:"10px"}}>Choose plan</button>
+          <button style={{ border: "1px solid purple", color: "purple", padding: "10px" }}>Choose plan</button>
         </div>
-        <div className="p-10" style={{border:"1px solid gray",width:"300px",textAlign:"center"}}>
+        <div className="p-10" style={{ border: "1px solid gray", width: "300px", textAlign: "center" }}>
           <h1 className="text-3xl font-semibold p-3">Basic</h1>
           <p className="text-4xl font-semibold p-3 text-purple-500">24$</p>
           <p className="p-1">✅Advanced Analytics</p>
@@ -215,9 +235,9 @@ export default function Home() {
           <p className="p-1">✅Advanced Analytics</p>
           <p className="p-1">✅Advanced Analytics</p>
           <p p-3>✅Advanced Analytics</p>
-          <button style={{border:"1px solid purple",color:"purple",padding:"10px"}}>Choose plan</button>
+          <button style={{ border: "1px solid purple", color: "purple", padding: "10px" }}>Choose plan</button>
         </div>
-        <div className="p-10" style={{border:"1px solid gray",width:"300px",textAlign:"center"}}>
+        <div className="p-10" style={{ border: "1px solid gray", width: "300px", textAlign: "center" }}>
           <h1 className="text-3xl font-semibold p-3">Basic</h1>
           <p className="text-4xl font-semibold p-3 text-purple-500">24$</p>
           <p className="p-1">✅Advanced Analytics</p>
@@ -227,13 +247,13 @@ export default function Home() {
           <p className="p-1">✅Advanced Analytics</p>
           <p className="p-1">✅Advanced Analytics</p>
           <p p-3>✅Advanced Analytics</p>
-          <button style={{border:"1px solid purple",color:"purple",padding:"10px"}}>Choose plan</button>
+          <button style={{ border: "1px solid purple", color: "purple", padding: "10px" }}>Choose plan</button>
         </div>
       </div>
     </div>
     <div>
       <h1 className="text-center text-5xl p-5 font-semibold">What our clients say</h1>
-      <div className="font-serif text-gray-400 p-8 m-auto"  style={{width:"660px",}}>
+      <div className="font-serif text-gray-400 p-8 m-auto" style={{ width: "660px", }}>
         <p className="text-start text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
         <div className="flex pt-5 items-center" >
           <img src="/src/pages/home/homeImg/image (21).png" alt="" />
@@ -248,7 +268,7 @@ export default function Home() {
       <div className="w-56">
         <h1 className="font-semibold text-3xl p-3 ">Latest news</h1>
         <div className="p-3">
-        <p>Check more posts in our blog for featured news and advertising insights</p>
+          <p>Check more posts in our blog for featured news and advertising insights</p>
         </div>
         <button className="w-2/11 p-4 m-3 text-white rounded-r bg-purple-400">Go to blog</button>
 
