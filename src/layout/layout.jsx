@@ -13,6 +13,7 @@ export default function Layout(){
           <Link to={"/home"}><img src="/public/logo.png" alt="" /></Link>
           <Link to={"/service"} >service</Link>
           <Link to={"/caseStudies"}>Case Studies</Link>
+          <Link to={"/caseStudy"}>Case Study</Link>
           <Link to={"/about"}>About us</Link>
           <Link to={"/blog"}>blog</Link>
         </div>

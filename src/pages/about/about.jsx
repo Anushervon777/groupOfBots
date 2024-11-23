@@ -42,7 +42,7 @@ export default function About() {
       <img src={img21} alt="" />
     </div>
 
-    <div className='video'>
+    <div className='video' style={{width:'1000px',margin:'auto'}}>
       <img src={img22} />
     </div>
 
@@ -152,7 +152,7 @@ export default function About() {
       <div>
         <h1>Freequently Ask Questions</h1>
         <h3>-Aliquet lectus urna viverra in odio?</h3>
-        <p style={{ lineHeight: "20px" }}>Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.</p>
+        <p style={{ lineHeight: "20px" }}>Adipiscing nunc arcu enim elit mattis eu placerat proin. <br /> Imperdiet elementum faucibus dignissim purus. <br /> Fusce  parturient diam magna ullamcorper morbi semper massa ac facilisis.</p>
         <h3>+Orci commodo, viverra orci mollis ut euismod?</h3>
         <h3>+Orci commodo, viverra orci mollis ut euismod?</h3>
         <h3>+Orci commodo, viverra orci mollis ut euismod?</h3>
