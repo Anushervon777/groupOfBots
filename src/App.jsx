@@ -20,7 +20,11 @@ export default function App(){
       {path:"/caseStudies",element:<CaseStudies/>},
       {path:"/blog", element:<Blog/>},
       {path:"/careers",element:<Careers/>},
+<<<<<<< HEAD
       
+=======
+        
+>>>>>>> b85259009ee3bf2ef826030db482622de58956b9
     ]}
   ])
   return <>
