@@ -19,7 +19,8 @@ export default function App(){
       {path:"/caseStudy",element:<CaseStudy/>},
       {path:"/caseStudies",element:<CaseStudies/>},
       {path:"/blog", element:<Blog/>},
-      {path:"/careers",element:<Careers/>}
+      {path:"/careers",element:<Careers/>},
+        
     ]}
   ])
   return <>
